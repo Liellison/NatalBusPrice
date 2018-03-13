@@ -20,24 +20,27 @@
         android:layout_alignBottom="@+id/etsaldo"
         android:layout_toRightOf="@+id/etsaldo"
         android:layout_toEndOf="@+id/etsaldo"
-        android:id="@+id/btcolocar" />
+        android:id="@+id/btcolocar"
+        android:text="@string/bt_incluir"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text=""
         android:id="@+id/tvsaldo"
         android:layout_below="@+id/etsaldo"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvsaldo"
-        android:id="@+id/btpassei"/>
+        android:id="@+id/btpassei"
+        android:text="@string/bt_subtrair"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btpassei"
-        android:id="@+id/bttotalpasse"/>
+        android:id="@+id/bttotalpasse"
+        android:text="@string/bt_soma"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
